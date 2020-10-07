@@ -1,0 +1,8 @@
+// +build !windows
+
+package main
+
+var (
+	shellPath = "bash"
+	makePath  = "make"
+)
